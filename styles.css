@@ -1,0 +1,31 @@
+body {
+    background-color:red;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+img {
+    align-content: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 50%;
+}
+img:hover {
+    transform: scale(1.1);
+    transform: rotate(360deg);
+}
+h1 {
+    color: blue;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
+}
+.all_about_jim_header {
+    text-align: center;
+}
+.all_about_jim_header > h4 {
+    font-size: 30px;
+}
